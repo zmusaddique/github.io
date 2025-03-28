@@ -2,3 +2,45 @@ baseURL = 'https://zmusaddique.github.io/'
 languageCode = 'en-us'
 title = 'zmusaddique'
 theme = 'PaperMod'
+math = true
+
+[[menu.main]]
+identifier = "blog"
+name = "Blog"
+url = "/blog/"
+weight = 10
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 10
+
+[[menu.main]]
+identifier = "shelf"
+name = "Shelf"
+url = "/shelf/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[params.homeInfoParams]
+Title = "Hi, I'm Musaddique"
+Content = "Software engineer working on high-performance computing, ML/DL and full-stack development. I enjoy opimizing AI workloads, LLMs and building efficient software.\n\n This site is where I share my insights, experiments and learnings."
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/zmusaddique/"
+
+[[params.socialIcons]]
+name = "X"
+url = "https://x.com/zmusaddique_/"
+
+[[params.socialIcons]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/zmusaddique/"
+
